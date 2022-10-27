@@ -32,6 +32,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    androidExtensions {
+        experimental = true
+    }
 }
 
 dependencies {
@@ -46,4 +49,6 @@ dependencies {
 
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
     implementation 'com.google.android.material:material:1.6.1'
+
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
 }
